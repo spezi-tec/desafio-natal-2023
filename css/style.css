@@ -3,11 +3,10 @@ box-sizing: border-box;
 }
 
 body{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: darkgray;
     height: 100vh;
     margin: 0;
@@ -17,55 +16,21 @@ h1{
     color: white 
 }
 
-.card{ 
-    background-color: white;
-    padding: 16px;
+input{
+    border:none;
+   }
 
-    min-width: 260px;
-}
-
-.card .input-group{
-    margin-top: 8px;
-}
-
-.card input{
-    padding: 4px;
-}
-
-.card button{
-    background-color: green;
+h2{
+    background-color: red;
     border: none;
     color: white;
     padding: 8px;
     width: 100%;
     font-size: 16px;
     margin-top: 8px;
-}
-
-h2{
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.results-values{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-
     flex-wrap: wrap;
     max-width: 300px;
-}
-
-.results-values .results-value{
-    background-color: darkorange;
-    color: white;
-    margin: 8px;
-
-    width: 48px;
-    height: 48px;
-
-    border-radius: 50%; 
-
-    text-align: center;   
-    line-height: 48px;
-    font-size: 24px
 }

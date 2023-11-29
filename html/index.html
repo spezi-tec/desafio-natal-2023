@@ -1,38 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorteador</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+        <title>Insert title here</title>
+        <link rel="stylesheet" href="../css/style.css">
+
+    <script type="text/javascript">
+        function insereTexto(){
+            document.getElementById('divTeste').innerHTML =" Parabéns, você foi sorteado para realizar um sonho neste natal <a href = https://blognoel.correios.com.br/adocao/>clique aqui </a> para resgatar o seu premio"
+        }
+    </script>
+
+    </head>
 <body>
-    <h1>Sorteador</h1>
 
-    <div class="card">
-        <div class="fields">
-        <div class="input-group">
-            <label> Total de resultados</label><br>
-            <input type="number" value="1" id="totalResultadoInput">
-        </div>
-           
-            <div class="input-group">
-                <label> Menor Valor </label><br>
-                <input type="number" value="1" id="menorValorInput">
-            </div>  
-            <div class="input-group">
-                <label> Maior Valor </label><br>
-                <input type="number" value="10" id="maiorValorInput">
-            </div>
-        <button onclick="sortear()">Sorteador</button>    
-    </div>
-    <div class="result" ></div>
-    <h2>Resultado</h2>
-    <div class="results-values">
-    <!-- <div class="results-value">12</div> -->
-    </div>
-    </div>
+<h1>Sorteador</h1>
+    <input type='button' onclick='insereTexto()' value='sortear'/><br/>
+<h2>resultado:</h2>
 
-    <script src="../js/app.js"></script>
+<div id="divTeste"> </div>
+
 </body>
 </html>
