@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Desafio Natal 2023</title>
         <link href="css/style.css">
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-        <style> 
+        <style>
         h1{
             text-align: center; color:white;
         } 
@@ -33,14 +33,20 @@
         </style>
     </head>
 <body>
-
 <header>
     
     <h1 class="destaque"> Natal</h1>
         <nav>
             <ul>            
               <button id="send"><a href="surgimento.html" rel="next">Estatisticas do Natal</a></button>    
-              <button id="send"><a href ="vikings.html" rel="next">vikings</a></button>  
+              <button id="send"><a href ="vikings.html" rel="next">vikings</a></button>
+              <button id="send"><a href="signup.html" rel="next">SORTEIO</a></button>
+
+              <h1 id="logado"></h1>
+    
+            <button onclick="sair()">Sair</button>
+              <script src="./assets/js/index.js"></script>
+
             </ul>
         </nav>
 </header>
