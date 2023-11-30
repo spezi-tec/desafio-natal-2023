@@ -16,6 +16,11 @@
   text-align: center;
     } 
 
+    footer{
+      background-color: brown;
+      color: white;
+    }
+
   </style>
 
 </head>
@@ -37,7 +42,7 @@
 
       <h2>Como era o Natal Viking</h2>
 
-    <p>Uma imensa fogueira era acesa para garantir calor na noite mais longa do ano e todas as casas eram decoradas com pinheiros. Também recebiam como elementos decorativos muitas fitas, comidas e pequenas estátuas. Assim foi criada a árvore natalina atual. O surgimento do papi noel veio da tradição viking que escolhia um de seus guerreiros que saia em meio a neve cara caçar, ele abatia o animal retirava sua pele e a vestia e por conta do sangue se usa o tom avermelhado atualmente, já a barba e cabelos brancos se deu por causa da neve, já que guerreiro retornava com os cabelos e barbas completamente brancos o que deu a caracteristica atual -</p>
+    <p>Uma imensa fogueira era acesa para garantir calor na noite mais longa do ano e todas as casas eram decoradas com pinheiros. Também recebiam como elementos decorativos muitas fitas, comidas e pequenas estátuas. Assim foi criada a árvore natalina atual. O surgimento do papi noel veio da tradição viking que escolhia um de seus guerreiros que saia em meio a neve cara caçar, ele abatia o animal retirava sua pele e a vestia e por conta do sangue se usa o tom avermelhado atualmente, já a barba e cabelos brancos se deu por causa da neve, já que guerreiro retornava com os cabelos e barbas completamente brancos o que deu a caracteristica atual. </p>
 
     <footer>
 

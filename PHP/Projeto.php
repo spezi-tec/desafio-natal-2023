@@ -29,6 +29,11 @@
             border: 2px solid;
             padding: 4px;
         }
+
+        footer{
+            color: white;
+            background-color: brown;
+        }
         
         </style>
     </head>
@@ -39,7 +44,7 @@
         <nav>
             <ul>               
               <button id="send"><a href ="vikings.html" rel="next">VIKINGS</a></button>
-              <button id="send"><a href="signin.html" rel="next">SORTEIO</a></button>
+              <button id="send"><a href="signin.html" rel="next">SORTEIO DE NATAL</a></button>
             </ul>
         </nav>
 </header>
@@ -77,7 +82,7 @@
 
     <footer>
       <p>
-        Fontes: BRASIL ESCOLA
+        2023 - FONTES: BRASIL ESCOLA
       </p>
     </footer>
 </body>
