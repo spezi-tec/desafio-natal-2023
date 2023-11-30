@@ -16,7 +16,7 @@
   text-align: center;
     }
     body{
-            background-image: url("img/body.jpg");
+            background-image: url("img/body.jpg"); 
         } 
 
     footer{
