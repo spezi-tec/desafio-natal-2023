@@ -43,8 +43,8 @@
     <h1 class="destaque"> Natal</h1>
         <nav>
             <ul>               
-              <button id="send"><a href ="vikings.html" rel="next">VIKINGS</a></button>
-              <button id="send"><a href="signin.html" rel="next">SORTEIO DE NATAL</a></button>
+              <button id="send"><a href ="vikings.php" rel="next">VIKINGS</a></button>
+              <button id="send"><a href="signin.php" rel="next">SORTEIO DE NATAL</a></button>
             </ul>
         </nav>
 </header>
@@ -59,7 +59,7 @@
 
     <h2>HISTORIA DO NATAL ATUALMENTE</h2>
 
-            <p>Nos dias atuais se instalou a lenda entre as criasças que caso elas se comportem o ano todo, na noite do dia 24 para o dia 25 um senhor de roupa vermelha, barba e cabelos brancos vem ate suas casas em um treno voador, puxado por renas magicas e lhes deixa presentes em baixo da arvore de natal montada pela familia. Gostaria de participar de um sorteio misterioso de natal? Então clique <a target="_blank" href="index.html"> aqui</a> e participe!</p>
+            <p>Nos dias atuais se instalou a lenda entre as criasças que caso elas se comportem o ano todo, na noite do dia 24 para o dia 25 um senhor de roupa vermelha, barba e cabelos brancos vem ate suas casas em um treno voador, puxado por renas magicas e lhes deixa presentes em baixo da arvore de natal montada pela familia. Gostaria de participar de um sorteio misterioso de natal? Então clique <a target="_blank" href="painel.php"> aqui</a> e participe!</p>
 
                  <img id="noel" src="img/noel.jpg" alt="Papai noel"/>
             
@@ -76,7 +76,7 @@
             
                 <img id="img-viking" src="img/viking.png" alt="Papai noel Viking"/>
 
-            <p>Ficou interessado em saber mais sobre a cultura viking? Então clique <a target="_blank" href="vikings.html"> aqui</a> para conhecer mais sobre os vikings.</p>
+            <p>Ficou interessado em saber mais sobre a cultura viking? Então clique <a target="_blank" href="vikings.php"> aqui</a> para conhecer mais sobre os vikings.</p>
 
 </main>
 

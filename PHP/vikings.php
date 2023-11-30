@@ -24,6 +24,7 @@
   </style>
 
 </head>
+<button id="send"><a href ="projeto.php" rel="before">Início</a></button>
   <body>
 
   <h1 class="destaque">
