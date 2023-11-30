@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("../image/bg-signin.jpg");
+  background-image: url("/image/bg-signup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed
@@ -33,6 +33,19 @@ h1{
   margin-bottom: 20px;
   color: #272262
 }
+
+
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: whitesmoke;
+            
+        }
+        div{
+            text-align: center;
+            margin-bottom: 20px;
+            color: whitesmoke;
+        }
 
 .label-float input{
   width: 100%;
@@ -62,7 +75,6 @@ h1{
 
 .label-float label{
   color: #272262;
-  pointer-event: none;
   position: absolute;
   top: 0;
   left: 0;

@@ -44,9 +44,24 @@ if(isset($_POST['email']) || isset( $_POST['senha'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    <style>
+
+        h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: whitesmoke;
+            
+        }
+        div{
+            text-align: center;
+            margin-bottom: 20px;
+            color: whitesmoke;
+        }
+    </style>
 </head>
 <body>
-    <h1>Acesse sua conta</h1>
+        <h1>Login</h1>
     <form action="" method="POST">
         <P>
             <label>E-mail</label>
@@ -58,5 +73,18 @@ if(isset($_POST['email']) || isset( $_POST['senha'])) {
         </p>
         <p>
             <button type="submit">Entrar</button>
+
+            <h2>Escolha um dos seguintes personagens para participar do sorteio:</h2>
+    <div>
+        <li>Papai Noel:</li>
+        <ul>email:papainoel@gmail.com</ul>
+        <ul>senha:123456</ul>
+        <li>Vikings:</li>
+        <ul>email:vikings@gmail.com</ul>
+        <ul>senha:123456</ul>
+        <li>Árvore de Natal:</li>
+        <ul>email:arvore@gmail.com</ul>
+        <ul>senha:123456</ul>
+    </div>
 </body>
 </html>

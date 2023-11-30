@@ -10,10 +10,22 @@ include('protect.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel</title>
-    <link rel="stylesheet" href="">
+    <style>
+  
+   body{
+    background-color: red;
+   text-align: center;
+   color: wheat;
+   margin-top: 200px;
+   }
+
+    </style>
+    
+  
+       
 </head>
 <body>
-    Bem vindo ao painel, <?php echo $_SESSION['nome']; ?>.
+    Bem vindo a página de sorteio, <?php echo $_SESSION['nome']; ?>!
 
     <p>
         <a href="logout.php">Sair</a>

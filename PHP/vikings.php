@@ -14,7 +14,10 @@
     h1{
       color: azure;
   text-align: center;
-    } 
+    }
+    body{
+            background-image: url("img/body.jpg");
+        } 
 
     footer{
       background-color: brown;

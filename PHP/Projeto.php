@@ -7,6 +7,9 @@
         <link href="css/style.css">
 
         <style>
+        body{
+            background-image: url("img/body.jpg");
+        }
         h1{
             text-align: center; color:white;
         } 
@@ -14,6 +17,7 @@
         h2{
             text-align: center
         }
+        
         
         .destaque{
             background-color: brown;
@@ -59,7 +63,7 @@
 
     <h2>HISTORIA DO NATAL ATUALMENTE</h2>
 
-            <p>Nos dias atuais se instalou a lenda entre as criasças que caso elas se comportem o ano todo, na noite do dia 24 para o dia 25 um senhor de roupa vermelha, barba e cabelos brancos vem ate suas casas em um treno voador, puxado por renas magicas e lhes deixa presentes em baixo da arvore de natal montada pela familia. Gostaria de participar de um sorteio misterioso de natal? Então clique <a target="_blank" href="painel.php"> aqui</a> e participe!</p>
+            <p>Nos dias atuais se instalou a lenda entre as criasças que caso elas se comportem o ano todo, na noite do dia 24 para o dia 25 um senhor de roupa vermelha, barba e cabelos brancos vem ate suas casas em um treno voador, puxado por renas magicas e lhes deixa presentes em baixo da arvore de natal montada pela familia. Gostaria de participar de um sorteio misterioso de natal? 
 
                  <img id="noel" src="img/noel.jpg" alt="Papai noel"/>
             
