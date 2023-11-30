@@ -63,7 +63,7 @@
 
     <h2>HISTORIA DO NATAL ATUALMENTE</h2>
 
-            <p>Nos dias atuais se instalou a lenda entre as criasças que caso elas se comportem o ano todo, na noite do dia 24 para o dia 25 um senhor de roupa vermelha, barba e cabelos brancos vem ate suas casas em um treno voador, puxado por renas magicas e lhes deixa presentes em baixo da arvore de natal montada pela familia. Gostaria de participar de um sorteio misterioso de natal? 
+            <p>Nos dias atuais se instalou a lenda entre as criasças que caso elas se comportem o ano todo, na noite do dia 24 para o dia 25 um senhor de roupa vermelha, barba e cabelos brancos vem ate suas casas em um treno voador, puxado por renas magicas e lhes deixa presentes em baixo da arvore de natal montada pela familia. Mas e você gostaria de participar de um sorteio misterioso de natal? Se sim clique na aba "sorteio" no início da pagina. 
 
                  <img id="noel" src="img/noel.jpg" alt="Papai noel"/>
             
