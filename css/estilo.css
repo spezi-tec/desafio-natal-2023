@@ -1,0 +1,199 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+body{
+	background:#283618 url(../img/logo111.jpg) no-repeat;
+	background-position: center center;
+	font-size: 16px;
+	font-family: sans-serif, Helvetica;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+/*-------- Inicio topo site--------*/
+
+#container{
+	margin-top: 15px;
+	padding-top: 25px;
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+#logo{
+	text-align: center;
+	margin-top: 0px;
+	color: #283618;
+}
+
+span{
+	color: #d90429;
+}
+
+header{
+	
+	background: rgba(192, 192, 192, 0.7);
+	top: 0px;
+	padding: 35px;
+}
+
+nav{
+	margin-top: 15px;
+}
+
+nav ul{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a{
+	padding:10px;
+	text-decoration: none;
+	margin: 15px;
+	color: #D90429;
+	font-size: 1.3em;
+}
+
+
+nav ul li a:hover{
+	background: #d90429;
+	color: #283618;
+	border-radius: 8%;
+}
+
+/*-------- fim topo site --------*/ 
+
+#card_carrosel{
+	width: 230px;
+	background: #C0C0C0;
+	border-radius: 3%;
+	height: 100%;
+	margin-bottom: 15px;
+}
+
+#card_carrosel a{
+	color: black;
+}
+
+section:hover{
+	opacity: 0.5;
+}
+
+
+#titlecarrosel{
+	text-align: center;
+	color: #da2c38;
+}
+
+#imgcarrosel{
+	width: 220px;
+	margin: 5px;	
+}
+
+/******* conteudo principal ******/ 
+
+#conteudo_principal{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 15px;
+	background: rgba(60, 255, 1, 0.3);
+
+}
+
+#img_principal{
+	width: 450px;
+	border: 3px inset #d90429;
+}
+
+aside{
+	width: 450px;
+}
+
+aside a{
+	text-decoration: underline;
+	color: #d90429;
+	padding: 5px;
+	background: rgba(192, 192, 192, 0.7);
+}
+
+aside p{
+	margin: 10px 0px;
+}
+
+aside img{
+	margin: 8px 0px;
+}
+
+aside h3{
+	color: black;
+	text-shadow: 10px 10px 3px rgba(192, 192, 192, 0.7);
+}
+
+footer{
+	background:rgba(192, 192, 192, 0.7);
+	top: 0px;
+	padding: 35px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+/*----------INICIO PAGINA JOGO------------*/ 
+
+#jogonoel{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #D90429;
+	box-sizing: border-box;
+	
+}
+main{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	
+}
+
+h1{
+	text-align: center;
+
+}
+
+hr{
+	font-weight: bold;
+	height: 3px;
+	background: black;
+	margin-bottom: 10px;
+}
+
+.game{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+
+.game button{
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 50px;
+	background: white;
+}
+
