@@ -13,6 +13,9 @@ Things you may want to cover:
 * Rails version
 * rails 7.0.8
 
+* Database version
+* PostgreSQL 10.23
+
 
 1. **Clone the Repository:**
 
